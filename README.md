@@ -1,6 +1,9 @@
 # TwitterDataMining
 
 This repository consist of an example for mining data from Twitter by streaming.
+Here, I follow [this tutorial](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
+and the goal is to move this example to a Scala project using Akka Streams, Alpakka
+and Apache Kafka.
 
 ## Getting Started
 
@@ -34,3 +37,19 @@ access_secret = 'your-access-secret'
 Change the values according with your properly account data.
 
 ### Running
+
+Run as given below:
+
+```bash
+~$ python app.py
+```
+
+## Built With
+
+* [Python 3](https://www.python.org/)
+* [Pip v3](https://pip.pypa.io/en/stable/)
+* [Tweepy](https://www.tweepy.org/)
+
+## Authors
+
+* Sergio Rodríguez.
